@@ -1,0 +1,38 @@
+body {
+    background-color: #1b1f23; 
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #009423;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .middle-sec{
+    min-height: 100vh;
+    position: relative;
+  }
+ 
+  .footer{
+    position: sticky;
+  }
+  .about-us{
+    position: relative;
+    height:100vh;
+    background-image:
+            linear-gradient(45deg,
+              rgba(3, 80, 0, 0.75),
+              rgba(255, 255, 255, 0.75)), url(https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/2020-08/shutterstock_1731284125_0.jpg?itok=89UrdUt_);
+    /* opacity: 50%; */
+    color: #000000;
+  }
+  .card{
+    min-width: fit-content;
+  }
