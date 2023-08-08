@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG Student Chapter - VIT Bhopal</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            
+            <a class="navbar-brand" href="#"><img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Practice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to GFG Student Chapter</h1>
+            <h3>VIT Bhopal</h3>
+            <p>Your journey to coding excellence begins here.</p>
+            <button class="btn btn-success">Learn More</button>
+        </div>
+    </header>
+
+    <!-- Courses Section (Using Bootstrap Cards) -->
+    <section class="middle-sec courses py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Programming Courses</h2>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <center><img src="data:image/png;base64,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"></center>
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Description of Python Course</p>
+                            <a href="#" class="btn btn-success">Enroll</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <center><img src="data:image/png;base64,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"></center>
+                            <h5 class="card-title">Javascript</h5>
+                            <p class="card-text">Description of Javascript Course</p>
+                            <a href="#" class="btn btn-success">Enroll</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <center><img src="data:image/png;base64,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" ></center>
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">Description of Java Course</p>
+                            <a href="#" class="btn btn-success">Enroll</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+<section class="about-us py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>About GFG Student Chapter</h2>
+                    <p>Welcome to the Geeks for Geeks Student Chapter at VIT Bhopal. We are a vibrant community of
+                        enthusiastic learners and coding enthusiasts, driven by the passion for technology and
+                        innovation.</p>
+                    <p>Our chapter serves as a hub for students to connect, learn, and collaborate on diverse
+                        programming topics. Whether you're a novice or a seasoned coder, we offer a supportive
+                        environment for skill development and knowledge sharing.</p>
+                    <p>Through workshops, seminars, coding contests, and interactive sessions, we aim to bridge the gap
+                        between academic learning and practical application. Our goal is to equip students with the
+                        tools and insights needed to excel in the ever-evolving tech landscape.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 GFG Student Chapter - VIT Bhopal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
